@@ -60,7 +60,7 @@ export default ({
             // https://github.com/kangax/html-minifier#options-quick-reference
             // https://github.com/jaketrent/html-webpack-template
             new HtmlWebpackPlugin({
-                title: 'My Demo App',
+                title: packageJson.name,
                 favicon: path.join(basePath, 'favicon.png'),
                 template: path.join(basePath, 'index.html'),
                 minify: false,
